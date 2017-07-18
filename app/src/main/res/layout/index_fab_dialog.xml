@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.widget.Space
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <com.sung.note.memo.tools.View.SquareLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/img"
+            android:src="@mipmap/memo_icon_item_article"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+        <TextView
+            android:layout_below="@+id/img"
+            android:text="文章"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.sung.note.memo.tools.View.SquareLayout>
+    <android.widget.Space
+        android:layout_width="60dp"
+        android:layout_height="wrap_content" />
+    <com.sung.note.memo.tools.View.SquareLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/img1"
+            android:src="@mipmap/memo_icon_item_note"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+        <TextView
+            android:layout_below="@+id/img1"
+            android:text="备忘"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.sung.note.memo.tools.View.SquareLayout>
+    <android.widget.Space
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+</LinearLayout>

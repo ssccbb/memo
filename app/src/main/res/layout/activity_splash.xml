@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".SplashActivity">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img"
+        android:layout_above="@+id/text"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/memo_icon_gray"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
